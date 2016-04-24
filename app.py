@@ -15,10 +15,11 @@ def hello_world():
 
 @app.route('/githook', methods=['GET', 'POST'])
 def githook():
-    print "githook received"
+    print "githook received...",
     data = request.get_json()
+    print "data decoded...",
     result = q.enqueue(handle_push, data)
-
+    print "job added to queue\n"
     return 'Hook received and added to work queue'
 
 if __name__ == '__main__':

@@ -15,7 +15,7 @@ with open("hook_data2.json", "r") as data_file:
     data2 = json.load(data_file)
 
 
-logging.basicConfig(filename='commis.log',level=logging.DEBUG)
+logging.basicConfig(filename='logs/commis.log',level=logging.INFO)
 
 logging.debug('\n\n\n')
 logging.info('\n\n\n')
