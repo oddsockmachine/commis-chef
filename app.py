@@ -19,7 +19,7 @@ def githook():
     data = request.get_json()
     result = q.enqueue(handle_push, data)
 
-    return 'OK'
+    return 'Hook received and added to work queue'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

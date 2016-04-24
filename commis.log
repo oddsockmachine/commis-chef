@@ -2291,3 +2291,315 @@ DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"
 INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
 INFO:rq.worker:[32mJob OK[39;49;00m
 INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2016 20:18:16] "POST /githook HTTP/1.1" 200 -
+DEBUG:root:
+
+
+
+INFO:root:
+
+
+
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_administrator/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_administrator/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api_sso/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api_sso/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_audit/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_audit/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_auth/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_auth/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_client/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_client/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy_ntlm/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy_ntlm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_core/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_core/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dispatcher/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dispatcher/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dns/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dns/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_generate/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_generate/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_haproxy/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_haproxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_heartbeat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_heartbeat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_helpsite/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_helpsite/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_icinga/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_icinga/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_kvm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_kvm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_magento/metadata.rb, old_version: version          '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version          '2016.3.3'/version          '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_magento/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_metrics/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_metrics/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_mysql/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_mysql/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_network/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_network/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_nodejs/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_nodejs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_ohai/metadata.rb, old_version: version "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version "2016.3.3"/version "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_ohai/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php-fpm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php-fpm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_reposync/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_reposync/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_resolv/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_resolv/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_rsyslog/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_rsyslog/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_runit/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_runit/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sstore/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sstore/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sysctl/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sysctl/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tpm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tpm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_www/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_www/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/apache/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/apache/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/backup/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/backup/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/base_services/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/base_services/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cassandra/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cassandra/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/clam/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/clam/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cmpl/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cmpl/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/collins/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/collins/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/core_deployments_np/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/core_deployments_np/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/daemontools/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/daemontools/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/delayed_netrestart/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/delayed_netrestart/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/dell/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/dell/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/gitlab/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/gitlab/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/grub/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/grub/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/highcharts-server/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/highcharts-server/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/hp/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/hp/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/icinga2/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/icinga2/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/java_certs/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/java_certs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/jboss/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/jboss/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/ldap/metadata.rb, old_version: version          '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version          '2016.3.3'/version          '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/ldap/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/monitor/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/monitor/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/mysqlproxy/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/mysqlproxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/newrelic/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/newrelic/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/percona/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/percona/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/redis/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/redis/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rkhunter/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rkhunter/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_for_envs/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_for_envs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_prod/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_prod/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/scout_realtime/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/scout_realtime/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/splunk/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/splunk/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/sumologic/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/sumologic/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/syslog-ng/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/syslog-ng/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/tcollector/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/tcollector/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/users/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/users/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/vms/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/vms/metadata.rb
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2016 20:18:50] "POST /githook HTTP/1.1" 200 -
+DEBUG:root:
+
+
+
+INFO:root:
+
+
+
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_administrator/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_administrator/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api_sso/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_api_sso/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_audit/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_audit/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_auth/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_auth/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_client/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_client/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy_ntlm/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_connect_proxy_ntlm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_core/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_core/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dispatcher/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dispatcher/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dns/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_dns/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_generate/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_generate/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_glue_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_haproxy/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_haproxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_heartbeat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_heartbeat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_helpsite/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_helpsite/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_icinga/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_icinga/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_kvm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_kvm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_magento/metadata.rb, old_version: version          '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version          '2016.3.3'/version          '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_magento/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_metrics/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_metrics/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_mysql/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_mysql/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_network/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_network/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_nodejs/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_nodejs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_ohai/metadata.rb, old_version: version "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version "2016.3.3"/version "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_ohai/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php-fpm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_php-fpm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_reposync/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_reposync/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_resolv/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_resolv/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_rsyslog/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_rsyslog/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_runit/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_runit/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sdp_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sstore/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sstore/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sysctl/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_sysctl/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tomcat/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tomcat/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tpm/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_tpm/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_www/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/anaplan_www/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/apache/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/apache/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/backup/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/backup/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/base_services/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/base_services/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cassandra/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cassandra/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/clam/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/clam/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cmpl/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/cmpl/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/collins/metadata.rb, old_version: version '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version '2016.3.3'/version '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/collins/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/core_deployments_np/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/core_deployments_np/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/daemontools/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/daemontools/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/delayed_netrestart/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/delayed_netrestart/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/dell/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/dell/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/gitlab/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/gitlab/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/grub/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/grub/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/highcharts-server/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/highcharts-server/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/hp/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/hp/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/icinga2/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/icinga2/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/java_certs/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/java_certs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/jboss/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/jboss/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/ldap/metadata.rb, old_version: version          '2016.3.3'
+DEBUG:root:sed@-i@.bak@s/version          '2016.3.3'/version          '2016.3.3'/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/ldap/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/monitor/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/monitor/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/mysqlproxy/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/mysqlproxy/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/newrelic/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/newrelic/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/percona/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/percona/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/redis/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/redis/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rkhunter/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rkhunter/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_for_envs/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_for_envs/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_prod/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/rundeck_prod/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/scout_realtime/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/scout_realtime/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/splunk/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/splunk/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/sumologic/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/sumologic/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/syslog-ng/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/syslog-ng/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/tcollector/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/tcollector/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/users/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/users/metadata.rb
+DEBUG:root:md_path: /Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/vms/metadata.rb, old_version: version          "2016.3.3"
+DEBUG:root:sed@-i@.bak@s/version          "2016.3.3"/version          "2016.3.3"/g@/Users/davidwalker/workspace/branch_chef/chef-demo/site-cookbooks/vms/metadata.rb
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
