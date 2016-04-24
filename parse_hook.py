@@ -6,13 +6,7 @@ import subprocess
 import git
 import knife
 
-# Get the example githook data
-with open("hook_data.json", "r") as data_file:
-    data1 = json.load(data_file)
 
-# Get the example githook data
-with open("hook_data2.json", "r") as data_file:
-    data2 = json.load(data_file)
 
 
 logging.basicConfig(filename='logs/commis.log',level=logging.INFO)
@@ -146,5 +140,12 @@ def set_cookbook_versions_in_env_files(env, new_version):
 
 
 if __name__ == "__main__":
+    # Get the example githook data
+    with open("tests/hook_data.json", "r") as data_file:
+        data1 = json.load(data_file)
+
+    # Get the example githook data
+    with open("tests/hook_data2.json", "r") as data_file:
+        data2 = json.load(data_file)
     handle_push(data1)
     handle_push(data2)

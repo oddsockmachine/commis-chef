@@ -26,3 +26,25 @@ INFO:root:
 INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
 INFO:rq.worker:[32mJob OK[39;49;00m
 INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
