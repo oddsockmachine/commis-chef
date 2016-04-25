@@ -61,3 +61,47 @@ INFO:root:
 INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
 INFO:rq.worker:[32mJob OK[39;49;00m
 INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2016 09:32:20] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2016 09:32:22] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2016 10:42:10] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2016 10:42:15] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2016 10:42:16] "POST /githook HTTP/1.1" 200 -
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
