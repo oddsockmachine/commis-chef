@@ -6,7 +6,7 @@ import subprocess
 import git
 import knife
 
-
+import config
 
 
 logging.basicConfig(filename='logs/commis.log',level=logging.INFO)
@@ -14,8 +14,8 @@ logging.basicConfig(filename='logs/commis.log',level=logging.INFO)
 logging.debug('\n\n\n')
 logging.info('\n\n\n')
 
-chef_repo_path = "/Users/davidwalker/workspace/branch_chef/chef-demo"
-cookbooks_path = chef_repo_path+"/site-cookbooks"
+chef_repo_path = config.chef_repo_path
+cookbooks_path = config.cookbooks_path
 
 def current_release():
     # TODO get this from a file, which can be created by hand to start with,
@@ -72,7 +72,22 @@ def get_knife_cmd_from_filepath(filepath):
     return command
 
 def get_knife_changes_for_push(hook_data):
-    changed_files = get_files_changed_by_push(hook_data)
+    changed_files = set(get_files_changed_by_push(hook_data))
+
+    def reject_wrong_envs(filepath):
+        if not filepath.startswith("environments"):
+            return True
+        branch = get_branch_from_push(hook_data).split("/")[-1]
+        env = filepath.split("/")[-1].split(".rb")[0]
+        if env == branch:
+            return True
+        print "Warning: " + filepath + " is an environment file which does not match this env branch"
+        print "Knife will ignore this change"
+        return False
+
+    print changed_files
+    changed_files = filter(reject_wrong_envs, changed_files)
+    print changed_files
     knife_changes = list(set([get_knife_cmd_from_filepath(f) for f in changed_files]))
     return knife_changes
 
@@ -108,6 +123,8 @@ def set_version_in_all_metadata_files(new_version):
     for md in md_paths:
         set_version_in_metadata_file(md, new_version)
 
+
+
 def update_repo_to_commit(hook_data):
     commit_hash = hook_data['after']
     git.pull(commit_hash)
@@ -130,11 +147,11 @@ def handle_push(hook_data):
 
 def set_cookbook_versions_in_env_files(env, new_version):
     env_file = "./environments/{}.rb".format(env)
-    md_paths = get_all_metadata_file_paths()
-    num_md_files = len(md_paths)
-    print "Setting all {} cookbook metadata files to version {}".format(num_md_files, new_version)
-    for md in md_paths:
-        set_version_in_metadata_file(md, new_version)
+    # md_paths = get_all_metadata_file_paths()
+    # num_md_files = len(md_paths)
+    # print "Setting all {} cookbook metadata files to version {}".format(num_md_files, new_version)
+    # for md in md_paths:
+    #     set_version_in_metadata_file(md, new_version)
 
 
 

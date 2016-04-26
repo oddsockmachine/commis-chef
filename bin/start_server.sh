@@ -1,2 +1,2 @@
 source py27/bin/activate
-python app.py
+python ingester.py

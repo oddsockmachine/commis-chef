@@ -15,7 +15,9 @@ def hello_world():
 def githook():
     print "githook received...",
     data = request.get_json()
+    commit = data.get("after")
     print "data decoded...",
+    print commit,
     result = q.enqueue(handle_push, data)
     print "job added to queue\n"
     return 'Hook received and added to work queue'

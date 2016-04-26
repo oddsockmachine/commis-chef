@@ -8,32 +8,58 @@
    "base_ref":null,
    "compare":"https://github.anaplan.com/dwalker/chef-demo/compare/231e9c755d89...cc20b84b21bf",
    "commits":[
-      {
-         "id":"cc20b84b21bf41f0f57eb321c959f27c85adf066",
-         "distinct":true,
-         "message":"Commit to test env in hook",
-         "timestamp":"2016-04-21T15:12:25+01:00",
-         "url":"https://github.anaplan.com/dwalker/chef-demo/commit/cc20b84b21bf41f0f57eb321c959f27c85adf066",
-         "author":{
-            "name":"David Walker",
-            "email":"david.walker@anaplan.com",
-            "username":"dwalker"
-         },
-         "committer":{
-            "name":"David Walker",
-            "email":"david.walker@anaplan.com",
-            "username":"dwalker"
-         },
-         "added":[
+     {
+        "id":"cc20b84b21bf41f0f57eb321c959f27c85adf066",
+        "distinct":true,
+        "message":"Commit to test env in hook",
+        "timestamp":"2016-04-21T15:12:25+01:00",
+        "url":"https://github.anaplan.com/dwalker/chef-demo/commit/cc20b84b21bf41f0f57eb321c959f27c85adf066",
+        "author":{
+           "name":"David Walker",
+           "email":"david.walker@anaplan.com",
+           "username":"dwalker"
+        },
+        "committer":{
+           "name":"David Walker",
+           "email":"david.walker@anaplan.com",
+           "username":"dwalker"
+        },
+        "added":[
 
-         ],
-         "removed":[
+        ],
+        "removed":[
 
-         ],
-         "modified":[
-            "site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb"
-         ]
-      }
+        ],
+        "modified":[
+           "site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb"
+        ]
+     },
+     {
+        "id":"cc20b84b21bf41f0f57eb321c959f27c85adf069",
+        "distinct":true,
+        "message":"Commit env file to test env in hook",
+        "timestamp":"2016-04-21T15:12:25+01:00",
+        "url":"https://github.anaplan.com/dwalker/chef-demo/commit/cc20b84b21bf41f0f57eb321c959f27c85adf066",
+        "author":{
+           "name":"David Walker",
+           "email":"david.walker@anaplan.com",
+           "username":"dwalker"
+        },
+        "committer":{
+           "name":"David Walker",
+           "email":"david.walker@anaplan.com",
+           "username":"dwalker"
+        },
+        "added":[
+
+        ],
+        "removed":[
+
+        ],
+        "modified":[
+           "environments/paris1.rb"
+        ]
+     }
    ],
    "head_commit":{
       "id":"cc20b84b21bf41f0f57eb321c959f27c85adf066",
