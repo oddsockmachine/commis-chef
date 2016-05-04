@@ -144,16 +144,28 @@ def handle_push(hook_data):
     print "Running the following knife commands:"
     for k_cmd in knife_commands:
         knife.run(k_cmd)
-
-def set_cookbook_versions_in_env_files(env, new_version):
-    env_file = "./environments/{}.rb".format(env)
-    # md_paths = get_all_metadata_file_paths()
-    # num_md_files = len(md_paths)
-    # print "Setting all {} cookbook metadata files to version {}".format(num_md_files, new_version)
-    # for md in md_paths:
-    #     set_version_in_metadata_file(md, new_version)
+    # Todo determine when to do this and add knife env file to k_cmds
+    set_cookbook_versions_in_env_file(branch, env_version)
 
 
+def set_cookbook_versions_in_env_file(env, new_version):
+    env_file_path = "{}/environments/{}.rb".format(chef_repo_path, env)
+    logging.info("setting cookbook versions in env file {}".format(env_file_path))
+    with open(env_file_path, "r") as env_file:
+        old_env_text = "".join(env_file.readlines())
+    # extract site-cookbooks from text into usable list
+    raw_versions = re.compile('# site-cookbooks\n(.*)?\}\)', re.DOTALL).findall(old_env_text)[0]
+    site_cookbooks_list = re.compile('"(.*)?" =>').findall(raw_versions)
+    logging.info("found the following site-cookbooks: {}".format(str(site_cookbooks_list)))
+    # Recreate the site-cookbooks section with new versions
+    new_sc_versions = ",\n".join(['  "{}" => "= {}"'.format(sc, new_version) for sc in site_cookbooks_list])
+    # print new_sc_versions
+    new_sc_versions = "# site-cookbooks\n" + new_sc_versions + "\n})"
+    # paste the new version info into the original file
+    new_env_text = re.compile('# site-cookbooks\n.*?\}\)', re.DOTALL).sub(new_sc_versions, old_env_text)
+    print new_env_text
+    with open(env_file_path, "w") as env_file:
+        env_file.write(new_env_text)
 
 
 if __name__ == "__main__":
@@ -166,3 +178,4 @@ if __name__ == "__main__":
         data2 = json.load(data_file)
     handle_push(data1)
     handle_push(data2)
+    # set_cookbook_versions_in_env_file("paris", "12.34.56")

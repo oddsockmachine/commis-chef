@@ -1,25 +1,28 @@
 import logging
+import subprocess
 from time import sleep
+
+def git(cmd):
+    print cmd
+    g = "git -C /opt/chef-repo/ "
+    cmd = g + cmd
+    # print subprocess.check_output(cmd.split(" "))
 
 def get_commit(hook_data):
     commit_hash = hook_data['after']
-    cmd = "git pull "+commit_hash
-    print cmd
+    git("pull "+commit_hash)
     sleep(1)
     branch = get_branch_from_push(hook_data)
-    cmd = "git checkout " + branch
-    print cmd
+    git("checkout " + branch)
     sleep(1)
     return
 
 def pull(commit_hash):
-    cmd = "git pull " + commit_hash
-    print cmd
+    git("pull " + commit_hash)
     sleep(1)
     return
 
 def checkout(branch):
-    cmd = "git checkout " + branch
-    print cmd
+    git("checkout " + branch)
     sleep(1)
     return

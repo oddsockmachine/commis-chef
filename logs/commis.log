@@ -297,3 +297,254 @@ INFO:root:
 INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
 INFO:rq.worker:[32mJob OK[39;49;00m
 INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2016 16:07:55] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2016 16:08:01] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2016 16:09:03] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2016 16:09:11] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2016 16:09:53] "POST /githook HTTP/1.1" 200 -
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:rq.worker:[32mJob OK[39;49;00m
+INFO:rq.worker:Result is kept for 500 seconds
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/paris.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/sf.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
+INFO:root:
+
+
+
+INFO:root:The following files were changed: [u'site-cookbooks/anaplan_sdp_tomcat/templates/default/conf/cas.properties.erb', u'environments/paris1.rb']
+INFO:root:setting cookbook versions in env file /Users/davidwalker/workspace/branch_chef/chef-repo/environments/sf.rb
+INFO:root:found the following site-cookbooks: ['anaplan_administrator', 'anaplan_api', 'anaplan_api_sso', 'anaplan_audit', 'anaplan_auth', 'anaplan_core', 'anaplan_dns', 'anaplan_glue', 'anaplan_glue_tomcat', 'anaplan_haproxy', 'anaplan_icinga', 'anaplan_magento', 'anaplan_mysql', 'anaplan_php', 'anaplan_php-fpm', 'anaplan_resolv', 'anaplan_runit', 'anaplan_sdp', 'anaplan_sdp_tomcat', 'anaplan_tomcat', 'anaplan_sysctl', 'anaplan_sstore', 'apache', 'backup', 'base_services', 'clam', 'core_deployments', 'core_deployments_np', 'delayed_netrestart', 'dell', 'highcharts-server', 'java_certs', 'jboss', 'newrelic', 'percona', 'redis', 'rkhunter', 'rundeck_for_envs', 'splunk', 'sumologic', 'tcollector', 'users']
